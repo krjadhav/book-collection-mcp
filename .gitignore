@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+data/embeddings.pkl
+data/graph.json
+.DS_Store
+*.swp
+*.swo
+*~
+node_modules/
