@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.log
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files (not needed in container)
+data/
+*.json
+*.pkl
+*.csv
+
+# Model caches (will download at runtime)
+.cache/
+torch/
+sentence_transformers/
+transformers/
+huggingface/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation
+README.md
+*.md
+
+# Test files
+test_*.py
+tests/
+*_test.py
+
+# Scripts not needed in production
+upload_all_books.py
+enrich_books.py
+graph_builder.py
+enrichment.log
+
+# Railway/deployment configs (already in repo)
+railway.json
+Procfile
+requirements.txt
